@@ -1,0 +1,33 @@
+{
+  "name": "vklymniuk-bus-plug",
+  "version": "1.0.0",
+  "description": "Pluggable modular interface for ManageTeam's message bus.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab-service.manageteam.ec2-internal:common/nodejs/packages/vklymniuk-bus-plug.git"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.infra.manageteam.internal/repository/vklymniuk-npm-repo/"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "keywords": [
+    "rabbitmq",
+    "message",
+    "bus",
+    "module",
+    "modular",
+    "abstraction"
+  ],
+  "author": "Vladimir Klymniuk <Vladimir.Klymniuk@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "connection-string": "^4.3.6",
+    "rabbot": "^2.1.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^20.1.0"
+  }
+}
