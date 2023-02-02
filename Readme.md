@@ -11,6 +11,7 @@ Create `.npmrc` file near the `package.json` file with `registry=http://0.0.0.0:
 npm install --save vklymniuk-bus-plug
 ```
 
+
 Usage
 -----
 ```javascript
